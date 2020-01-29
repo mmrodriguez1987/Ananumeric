@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.2" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="BankGothic Md BT" size="11" style="1"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Archivo"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="BankGothic Md BT" size="11" style="1"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="BankGothic Md BT" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\stop.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Salir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Entretenimiento"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="BankGothic Md BT" size="11" style="1"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="BankGothic Md BT" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\joypad.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Parejas Simpson"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="VNumerical Soft Versi&#xf3;n Empresarial 1.0.0"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="0" red="0" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor predeterminado"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <AccessibilityProperties>
+    <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+  </AccessibilityProperties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,12,0,0,3,-4"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+    <Property name="columns" type="int" value="0"/>
+    <Property name="rows" type="int" value="1"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="0"/>
+        <Property name="rows" type="int" value="1"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JDesktopPane" name="jDesktopPane1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JToolBar" name="jToolBar1">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="0" y="0" width="1010" height="40" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="BankGothic Md BT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\word.PNG"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Microsoft Word"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="BankGothic Md BT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\excel.PNG"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Microsoft Excel"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="BankGothic Md BT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\pps.PNG"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Microsoft Power Point"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="BankGothic Md BT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\access.PNG"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Microsoft Access"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="BankGothic Md BT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\color_wheel.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Paint"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="BankGothic Md BT" size="11" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\_active__document.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Bloc de Notas"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+              <Properties>
+                <Property name="dividerLocation" type="int" value="255"/>
+                <Property name="dividerSize" type="int" value="6"/>
+                <Property name="opaque" type="boolean" value="false"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="0" y="39" width="-1" height="820" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JSplitPane" name="jSplitPane2">
+                  <Properties>
+                    <Property name="dividerLocation" type="int" value="500"/>
+                    <Property name="orientation" type="int" value="0"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                      <JSplitPaneConstraints position="left"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel2">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                          <JSplitPaneConstraints position="left"/>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                        <Property name="columns" type="int" value="0"/>
+                        <Property name="rows" type="int" value="1"/>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="com.l2fprod.common.swing.JTaskPane" name="jTaskPane1">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="66" green="66" red="66" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="jDesktopPane1_jTaskPane1"/>
+                          </AuxValues>
+                          <SubComponents>
+                            <Container class="com.l2fprod.common.swing.JTaskPaneGroup" name="jTaskPaneGroup1">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="b3" red="f" type="rgb"/>
+                                </Property>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\welcome32x32.png"/>
+                                </Property>
+                                <Property name="title" type="java.lang.String" value="Unidades de Estudio"/>
+                              </Properties>
+                              <SubComponents>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton1">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="cc" red="99" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\star.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Sistemas Num&#xe9;ricos"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton1ActionPerformed"/>
+                                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLinkButton1MousePressed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton2">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="fe" green="fc" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\star.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="M&#xe9;todos Num&#xe9;ricos"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLinkButton2MousePressed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton3">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="fe" green="fc" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\page.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Sistemas de Ecuaciones"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton3ActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton4">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\page.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Interpolaci&#xf3;n"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton4ActionPerformed"/>
+                                  </Events>
+                                </Component>
+                              </SubComponents>
+                              <LayoutCode>
+                                <CodeStatement>
+                                  <CodeExpression id="1_percentLayout5">
+                                    <CodeVariable name="percentLayout5" type="4096" declaredType="com.l2fprod.common.swing.PercentLayout"/>
+                                    <ExpressionOrigin>
+                                      <ExpressionProvider type="CodeConstructor">
+                                        <CodeConstructor class="com.l2fprod.common.swing.PercentLayout" parameterTypes=""/>
+                                      </ExpressionProvider>
+                                    </ExpressionOrigin>
+                                  </CodeExpression>
+                                  <StatementProvider type="CodeExpression">
+                                    <CodeExpression id="1_percentLayout5"/>
+                                  </StatementProvider>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="1_percentLayout5"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setOrientation" class="com.l2fprod.common.swing.PercentLayout" parameterTypes="int"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="2">
+                                      <ExpressionOrigin>
+                                        <Value type="int" value="1"/>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="3">
+                                    <ExpressionOrigin>
+                                      <CodeExpression id="4_jTaskPaneGroup1">
+                                        <CodeVariable name="jTaskPaneGroup1" type="8194" declaredType="com.l2fprod.common.swing.JTaskPaneGroup"/>
+                                        <ExpressionOrigin>
+                                          <ExpressionProvider type="ComponentRef">
+                                            <ComponentRef name="jTaskPaneGroup1"/>
+                                          </ExpressionProvider>
+                                        </ExpressionOrigin>
+                                      </CodeExpression>
+                                      <ExpressionProvider type="CodeMethod">
+                                        <CodeMethod name="getContentPane" class="com.l2fprod.common.swing.JTaskPaneGroup" parameterTypes=""/>
+                                      </ExpressionProvider>
+                                    </ExpressionOrigin>
+                                  </CodeExpression>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="1_percentLayout5"/>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="3"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="5_jLinkButton1">
+                                      <CodeVariable name="jLinkButton1" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton1"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="3"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="6_jLinkButton2">
+                                      <CodeVariable name="jLinkButton2" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton2"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="3"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="7_jLinkButton3">
+                                      <CodeVariable name="jLinkButton3" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton3"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="3"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="8_jLinkButton4">
+                                      <CodeVariable name="jLinkButton4" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton4"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                              </LayoutCode>
+                            </Container>
+                            <Container class="com.l2fprod.common.swing.JTaskPaneGroup" name="jTaskPaneGroup2">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="a0" red="2b" type="rgb"/>
+                                </Property>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\propertysheet32x32.png"/>
+                                </Property>
+                                <Property name="title" type="java.lang.String" value="Herramientas"/>
+                              </Properties>
+                              <SubComponents>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton7">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\_active__add.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Calculadora"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton7ActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton8">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\past.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Calendario"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton8ActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton9">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\page_white_edit.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Editor de Texto"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton9ActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="com.l2fprod.common.swing.JLinkButton" name="jLinkButton10">
+                                  <Properties>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                      <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\word.png"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Word versi&#xf3;n en Java"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLinkButton10ActionPerformed"/>
+                                  </Events>
+                                </Component>
+                              </SubComponents>
+                              <LayoutCode>
+                                <CodeStatement>
+                                  <CodeExpression id="9_percentLayout6">
+                                    <CodeVariable name="percentLayout6" type="4096" declaredType="com.l2fprod.common.swing.PercentLayout"/>
+                                    <ExpressionOrigin>
+                                      <ExpressionProvider type="CodeConstructor">
+                                        <CodeConstructor class="com.l2fprod.common.swing.PercentLayout" parameterTypes=""/>
+                                      </ExpressionProvider>
+                                    </ExpressionOrigin>
+                                  </CodeExpression>
+                                  <StatementProvider type="CodeExpression">
+                                    <CodeExpression id="9_percentLayout6"/>
+                                  </StatementProvider>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="9_percentLayout6"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setGap" class="com.l2fprod.common.swing.PercentLayout" parameterTypes="int"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="10">
+                                      <ExpressionOrigin>
+                                        <Value type="int" value="2"/>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="9_percentLayout6"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setOrientation" class="com.l2fprod.common.swing.PercentLayout" parameterTypes="int"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="11">
+                                      <ExpressionOrigin>
+                                        <Value type="int" value="1"/>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="12">
+                                    <ExpressionOrigin>
+                                      <CodeExpression id="13_jTaskPaneGroup2">
+                                        <CodeVariable name="jTaskPaneGroup2" type="8194" declaredType="com.l2fprod.common.swing.JTaskPaneGroup"/>
+                                        <ExpressionOrigin>
+                                          <ExpressionProvider type="ComponentRef">
+                                            <ComponentRef name="jTaskPaneGroup2"/>
+                                          </ExpressionProvider>
+                                        </ExpressionOrigin>
+                                      </CodeExpression>
+                                      <ExpressionProvider type="CodeMethod">
+                                        <CodeMethod name="getContentPane" class="com.l2fprod.common.swing.JTaskPaneGroup" parameterTypes=""/>
+                                      </ExpressionProvider>
+                                    </ExpressionOrigin>
+                                  </CodeExpression>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="9_percentLayout6"/>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="12"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="14_jLinkButton7">
+                                      <CodeVariable name="jLinkButton7" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton7"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="12"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="15_jLinkButton8">
+                                      <CodeVariable name="jLinkButton8" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton8"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="12"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="16_jLinkButton9">
+                                      <CodeVariable name="jLinkButton9" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton9"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="12"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="17_jLinkButton10">
+                                      <CodeVariable name="jLinkButton10" type="8194" declaredType="com.l2fprod.common.swing.JLinkButton"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLinkButton10"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                              </LayoutCode>
+                            </Container>
+                            <Container class="com.l2fprod.common.swing.JTaskPaneGroup" name="jTaskPaneGroup3">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="a0" red="2b" type="rgb"/>
+                                </Property>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\tasks-question.png"/>
+                                </Property>
+                                <Property name="title" type="java.lang.String" value="Detalles ..."/>
+                              </Properties>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="labelhora">
+                                  <Properties>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="0"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="jLabel5">
+                                  <Properties>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="0"/>
+                                    <Property name="text" type="java.lang.String" value="VNumerical Soft"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="jLabel4">
+                                  <Properties>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Verdana" size="12" style="1"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="cc" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="0"/>
+                                    <Property name="text" type="java.lang.String" value="Versi&#xf3;n 1.0.0"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                              <LayoutCode>
+                                <CodeStatement>
+                                  <CodeExpression id="18_percentLayout7">
+                                    <CodeVariable name="percentLayout7" type="4096" declaredType="com.l2fprod.common.swing.PercentLayout"/>
+                                    <ExpressionOrigin>
+                                      <ExpressionProvider type="CodeConstructor">
+                                        <CodeConstructor class="com.l2fprod.common.swing.PercentLayout" parameterTypes=""/>
+                                      </ExpressionProvider>
+                                    </ExpressionOrigin>
+                                  </CodeExpression>
+                                  <StatementProvider type="CodeExpression">
+                                    <CodeExpression id="18_percentLayout7"/>
+                                  </StatementProvider>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="18_percentLayout7"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setOrientation" class="com.l2fprod.common.swing.PercentLayout" parameterTypes="int"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="19">
+                                      <ExpressionOrigin>
+                                        <Value type="int" value="1"/>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="20">
+                                    <ExpressionOrigin>
+                                      <CodeExpression id="21_jTaskPaneGroup3">
+                                        <CodeVariable name="jTaskPaneGroup3" type="8194" declaredType="com.l2fprod.common.swing.JTaskPaneGroup"/>
+                                        <ExpressionOrigin>
+                                          <ExpressionProvider type="ComponentRef">
+                                            <ComponentRef name="jTaskPaneGroup3"/>
+                                          </ExpressionProvider>
+                                        </ExpressionOrigin>
+                                      </CodeExpression>
+                                      <ExpressionProvider type="CodeMethod">
+                                        <CodeMethod name="getContentPane" class="com.l2fprod.common.swing.JTaskPaneGroup" parameterTypes=""/>
+                                      </ExpressionProvider>
+                                    </ExpressionOrigin>
+                                  </CodeExpression>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="18_percentLayout7"/>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="20"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="22_labelhora">
+                                      <CodeVariable name="labelhora" type="8194" declaredType="javax.swing.JLabel"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="labelhora"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="20"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="23_jLabel5">
+                                      <CodeVariable name="jLabel5" type="8194" declaredType="javax.swing.JLabel"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLabel5"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                                <CodeStatement>
+                                  <CodeExpression id="20"/>
+                                  <StatementProvider type="CodeMethod">
+                                    <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                                  </StatementProvider>
+                                  <Parameters>
+                                    <CodeExpression id="24_jLabel4">
+                                      <CodeVariable name="jLabel4" type="8194" declaredType="javax.swing.JLabel"/>
+                                      <ExpressionOrigin>
+                                        <ExpressionProvider type="ComponentRef">
+                                          <ComponentRef name="jLabel4"/>
+                                        </ExpressionProvider>
+                                      </ExpressionOrigin>
+                                    </CodeExpression>
+                                  </Parameters>
+                                </CodeStatement>
+                              </LayoutCode>
+                            </Container>
+                          </SubComponents>
+                          <LayoutCode>
+                            <CodeStatement>
+                              <CodeExpression id="25_percentLayout4">
+                                <CodeVariable name="percentLayout4" type="4096" declaredType="com.l2fprod.common.swing.PercentLayout"/>
+                                <ExpressionOrigin>
+                                  <ExpressionProvider type="CodeConstructor">
+                                    <CodeConstructor class="com.l2fprod.common.swing.PercentLayout" parameterTypes=""/>
+                                  </ExpressionProvider>
+                                </ExpressionOrigin>
+                              </CodeExpression>
+                              <StatementProvider type="CodeExpression">
+                                <CodeExpression id="25_percentLayout4"/>
+                              </StatementProvider>
+                            </CodeStatement>
+                            <CodeStatement>
+                              <CodeExpression id="25_percentLayout4"/>
+                              <StatementProvider type="CodeMethod">
+                                <CodeMethod name="setGap" class="com.l2fprod.common.swing.PercentLayout" parameterTypes="int"/>
+                              </StatementProvider>
+                              <Parameters>
+                                <CodeExpression id="26">
+                                  <ExpressionOrigin>
+                                    <Value type="int" value="14"/>
+                                  </ExpressionOrigin>
+                                </CodeExpression>
+                              </Parameters>
+                            </CodeStatement>
+                            <CodeStatement>
+                              <CodeExpression id="25_percentLayout4"/>
+                              <StatementProvider type="CodeMethod">
+                                <CodeMethod name="setOrientation" class="com.l2fprod.common.swing.PercentLayout" parameterTypes="int"/>
+                              </StatementProvider>
+                              <Parameters>
+                                <CodeExpression id="27">
+                                  <ExpressionOrigin>
+                                    <Value type="int" value="1"/>
+                                  </ExpressionOrigin>
+                                </CodeExpression>
+                              </Parameters>
+                            </CodeStatement>
+                            <CodeStatement>
+                              <CodeExpression id="28_jTaskPane1">
+                                <CodeVariable name="jTaskPane1" type="8194" declaredType="com.l2fprod.common.swing.JTaskPane"/>
+                                <ExpressionOrigin>
+                                  <ExpressionProvider type="ComponentRef">
+                                    <ComponentRef name="jTaskPane1"/>
+                                  </ExpressionProvider>
+                                </ExpressionOrigin>
+                              </CodeExpression>
+                              <StatementProvider type="CodeMethod">
+                                <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                              </StatementProvider>
+                              <Parameters>
+                                <CodeExpression id="25_percentLayout4"/>
+                              </Parameters>
+                            </CodeStatement>
+                            <CodeStatement>
+                              <CodeExpression id="28_jTaskPane1"/>
+                              <StatementProvider type="CodeMethod">
+                                <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                              </StatementProvider>
+                              <Parameters>
+                                <CodeExpression id="4_jTaskPaneGroup1"/>
+                              </Parameters>
+                            </CodeStatement>
+                            <CodeStatement>
+                              <CodeExpression id="28_jTaskPane1"/>
+                              <StatementProvider type="CodeMethod">
+                                <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                              </StatementProvider>
+                              <Parameters>
+                                <CodeExpression id="13_jTaskPaneGroup2"/>
+                              </Parameters>
+                            </CodeStatement>
+                            <CodeStatement>
+                              <CodeExpression id="28_jTaskPane1"/>
+                              <StatementProvider type="CodeMethod">
+                                <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
+                              </StatementProvider>
+                              <Parameters>
+                                <CodeExpression id="21_jTaskPaneGroup3"/>
+                              </Parameters>
+                            </CodeStatement>
+                          </LayoutCode>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                          <JSplitPaneConstraints position="right"/>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                        <Property name="useNullLayout" type="boolean" value="true"/>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel2">
+                          <Properties>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\dragones_cromados.jpg"/>
+                            </Property>
+                            <Property name="verticalAlignment" type="int" value="1"/>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                              <AbsoluteConstraints x="0" y="0" width="230" height="180"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel4">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                      <JSplitPaneConstraints position="right"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                    <Property name="columns" type="int" value="0"/>
+                    <Property name="rows" type="int" value="1"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="LabelFondo">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="0" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="2"/>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="2" name="C:\Ananumeric_1\src\Ananumeric\Im&#xe1;genes\3D403.jpg"/>
+                        </Property>
+                        <Property name="verticalAlignment" type="int" value="1"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[1200, 775]"/>
+                        </Property>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[1200, 775]"/>
+                        </Property>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
